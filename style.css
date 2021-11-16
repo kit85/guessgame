@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    background-color: green;
+}
+.h{
+    display: flex;
+    
+    justify-content: center;
+    font-size: 50px;
+    font-family: cursive;
+    align-items: center;
+    
+    
+    
+}
+#cardsdiv{
+  display:flex;
+  justify-content: center;
+  margin: 6rem;
+ 
+
+}
+.inv{
+    display: none;
+}
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+.H{
+    background-color: yellow;
+    margin-right: 2rem;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 10%;
+    border: 0.1px solid white;
+    
+}
+.L{
+    background-color: red;
+    margin-left: 2rem;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 10%;
+    border: 0.1px solid white;
+    
+}
+.r{
+    background-color: lightblue;
+    margin-right: 2rem;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 10%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border: 0.1px solid white;
+}
+.Start{
+    background-color: lightseagreen;
+    margin-right: 2rem;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 10%;
+    margin-left: 1rem;
+    border: 0.1px solid white;
+
+}
+
+.m{
+    margin-top: 2%;
+}
+.bg{
+    display: flex;
+    justify-content:space-between ;
+}
